@@ -1,4 +1,4 @@
-# Linux-
+# Linux应急响应脚本
 shell进行开发，帮助快速定位安全事件。
 
 chmod 777 oscheck
