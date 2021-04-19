@@ -102,7 +102,7 @@ echo "开机启动项有:">>nohup.out
 oldifs="$IFS"
 IFS=$'\n'
 
-for line in `cat /etc/rc.local /etc/rc.d/rc[0~6].d ls -l /etc/rc.d/rc3.d/` 
+for line in `more /etc/rc.local /etc/rc.d/rc[0~6].d ls -l /etc/rc.d/rc3.d/` 
 do
 	echo "$line" >>nohup.out
 done
